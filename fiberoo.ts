@@ -1,5 +1,5 @@
-function fib(): number[]{
-  let arr: number[] = [0, 1];
+function fib(): number[] {
+  const arr: number[] = [0, 1];
   for (let i = 2; i < 50; i++) {
     arr.push(arr[i - 1] + arr[i - 2]);
   }
@@ -19,4 +19,3 @@ function numEvenNums(nums: number[]): number {
 }
 
 console.log(numEvenNums(fib()));
-
